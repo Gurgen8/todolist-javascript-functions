@@ -1,0 +1,40 @@
+*{
+    background-color: black;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    margin-top:7px;
+    color:gold;
+    font-size: 22px;
+
+   
+  
+    
+}
+
+#root{
+    width: 400px;
+
+    form{
+        input{
+            width: 200px;
+            height: 30px;
+            border-radius: 5px;
+            background-color: black;
+            border: 3px solid gold;
+            resize: none;
+            outline: none;
+
+            button{
+                width: 50px;
+                height: 30px;
+                font-size: 20px;
+                padding: 4px;
+                &:hover{
+                    background-color: cadetblue !important;
+                }
+            }
+        }
+    }
+   
+}
